@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="no.kristiania.eksamenTest.HttpClientTest" time="1.631" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Olav Martinius\Desktop\eksamenTest\target\test-classes;C:\Users\Olav Martinius\Desktop\eksamenTest\target\classes;C:\Users\Olav Martinius\.m2\repository\org\flywaydb\flyway-core\6.0.3\flyway-core-6.0.3.jar;C:\Users\Olav Martinius\.m2\repository\org\logevents\logevents\0.1.25\logevents-0.1.25.jar;C:\Users\Olav Martinius\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta2\slf4j-api-1.8.0-beta2.jar;C:\Users\Olav Martinius\.m2\repository\org\postgresql\postgresql\42.2.8.jre6\postgresql-42.2.8.jre6.jar;C:\Users\Olav Martinius\.m2\repository\com\h2database\h2\1.4.199\h2-1.4.199.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0-M1\junit-jupiter-5.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0-M1\junit-jupiter-api-5.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Olav Martinius\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0-M1\junit-platform-commons-1.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0-M1\junit-jupiter-params-5.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0-M1\junit-jupiter-engine-5.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0-M1\junit-platform-engine-1.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\OLAVMA~1\AppData\Local\Temp\surefire9530910683542728346\surefirebooter13539590418048898874.jar C:\Users\Olav Martinius\AppData\Local\Temp\surefire9530910683542728346 2019-11-15T18-52-19_902-jvmRun1 surefire10111483224202368664tmp surefire_014536219900517054762tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Olav Martinius\Desktop\eksamenTest\target\test-classes;C:\Users\Olav Martinius\Desktop\eksamenTest\target\classes;C:\Users\Olav Martinius\.m2\repository\org\flywaydb\flyway-core\6.0.3\flyway-core-6.0.3.jar;C:\Users\Olav Martinius\.m2\repository\org\logevents\logevents\0.1.25\logevents-0.1.25.jar;C:\Users\Olav Martinius\.m2\repository\org\slf4j\slf4j-api\1.8.0-beta2\slf4j-api-1.8.0-beta2.jar;C:\Users\Olav Martinius\.m2\repository\org\postgresql\postgresql\42.2.8.jre6\postgresql-42.2.8.jre6.jar;C:\Users\Olav Martinius\.m2\repository\com\h2database\h2\1.4.199\h2-1.4.199.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\jupiter\junit-jupiter\5.6.0-M1\junit-jupiter-5.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0-M1\junit-jupiter-api-5.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Olav Martinius\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0-M1\junit-platform-commons-1.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0-M1\junit-jupiter-params-5.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0-M1\junit-jupiter-engine-5.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0-M1\junit-platform-engine-1.6.0-M1.jar;C:\Users\Olav Martinius\.m2\repository\org\assertj\assertj-core\3.13.2\assertj-core-3.13.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Olav Martinius"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Olav Martinius\Desktop\eksamenTest"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="idea.version2019.2.3" value="true"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\OLAVMA~1\AppData\Local\Temp\surefire9530910683542728346\surefirebooter13539590418048898874.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="user.name" value="Olav Martinius"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\Olav Martinius\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\OLAVMA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.dir" value="C:\Users\Olav Martinius\Desktop\eksamenTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Olav Martinius\AppData\Local\Microsoft\WindowsApps;C:\Users\Olav Martinius\AppData\Roaming\npm;C:\Users\Olav Martinius\AppData\Local\Programs\Microsoft VS Code\bin;C:\Maven\bin;C:\Maven\bin;C:\Program Files\Java\jdk-11.0.1\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldReadBody" classname="no.kristiania.eksamenTest.HttpClientTest" time="0.53"/>
+  <testcase name="shouldExecuteHttprequest" classname="no.kristiania.eksamenTest.HttpClientTest" time="0.274"/>
+  <testcase name="shouldReadStatusCode" classname="no.kristiania.eksamenTest.HttpClientTest" time="0.24"/>
+  <testcase name="shouldReadContentLength" classname="no.kristiania.eksamenTest.HttpClientTest" time="0.253"/>
+  <testcase name="shouldReadHeaders" classname="no.kristiania.eksamenTest.HttpClientTest" time="0.327"/>
+</testsuite>
