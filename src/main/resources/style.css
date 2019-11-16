@@ -1,0 +1,8 @@
+body {
+    background-color: lime;
+}
+
+#mail {
+    left: 10px;
+    display: inline;
+}
